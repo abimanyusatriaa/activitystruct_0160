@@ -30,7 +30,7 @@ int main() {
 #include <iostream>
 using namespace std;
 
-struct DetailAlamat {
+struct DetailAlamat { 
     string desa;
     string kota;
 };
