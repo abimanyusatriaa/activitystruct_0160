@@ -80,3 +80,17 @@ struct mahasiswa {
     DetailAlamat alamat;
     int umur;
 };
+int main() {
+    mahasiswa mhs;
+    cout << "Nomor mahasiswa : ";
+    getline(cin, mhs.nim);
+    cout << "Nama mahasiswa : ";
+    getline(cin, mhs.nama);
+
+    cout << "alamat mahasiswa :" << endl;
+    cout << "\n nama desa : ";
+    cin >> mhs.alamat.desa;
+    cout << "\t nama kota : ";
+    cin >> mhs.alamat.kota;
+    cout << "umur mahasiswa : ";
+    cin >> mhs.umur;
