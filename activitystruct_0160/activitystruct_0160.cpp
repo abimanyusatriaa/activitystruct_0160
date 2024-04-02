@@ -103,3 +103,12 @@ int main() {
     cout << "\n \t kota :" << mhs.alamat.kota;
     cout << "\n umur :" << mhs.umur;
 }
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct DetailAlamat {
+    string desa;
+    string kota;
+};
