@@ -57,3 +57,12 @@ int main() {
 
     cout << "Umur mahasiswa : ";
     cin >> mhs.umur;
+
+    cout << endl;
+    cout << "\n Nim :" << mhs.nim;
+    cout << "\n nama :" << mhs.nama;
+    cout << "\n Alamat : ";
+    cout << "\n Desa :" << mhs.alamat.desa;
+    cout << "\n Kota :" << mhs.alamat.kota;
+    cout << "\n Umur :" << mhs.umur;
+}
